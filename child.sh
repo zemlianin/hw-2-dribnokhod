@@ -7,5 +7,8 @@ do
     let n1=$n1*$i;
     let i=$i+1;
 done
-echo -n "child: "
+sleep 1;
+echo -n "child with PID = "$$", output = "
 echo $n1;
+
+sleep 10
